@@ -3,6 +3,7 @@
     margin-top: 10vh;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: scroll;
 }
 .timeline-parent h1{
     font-size: 4rem;
@@ -20,7 +21,7 @@
     padding: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
     transition: transform 0.2s ease;
-    width: 200px;
+    margin: 1rem 0;
     text-align: center;
   }
   

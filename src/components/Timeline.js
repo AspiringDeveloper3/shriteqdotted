@@ -11,13 +11,13 @@ const Timeline = () => {
   ];
 
   return (
-    <div className='reveal timeline-2'>
+    <div id='timeline' className='section reveal timeline-2'>
       <div id='filler-timeline'></div>
       <div className='timeline-parent'>
         <h1>Timeline</h1>
-        <div className="timeline">
+        <div className="timeline row">
       {stages.map((stage, index) => (
-        <div className="timeline-event" key={index}>
+        <div className="timeline-event col-lg-2 col-md-5 col-sm-7" key={index}>
           <div className="timeline-event-content">
             <h3>{stage.title}</h3>
             <p>{stage.description}</p>

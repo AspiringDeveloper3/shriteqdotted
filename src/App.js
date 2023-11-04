@@ -12,9 +12,6 @@ const Main = () => {
       <Navbar />
       <Home />
       <br></br>
-      <div id='filler' className='filler'>
-
-      </div>
       <About />
       <Timeline />
     </div>

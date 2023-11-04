@@ -14,7 +14,14 @@ font-size: 1.2rem;
 font-style: normal;
 font-weight: 400;
 margin: 0 1vw;
+border-radius: 10px;
 }
 .brand{
   width: 15vw;
+}
+
+.navbar a.active {
+  transition: 0.7s ease-in-out;
+  font-size: 1.4rem;
+  background-color: rgb(103, 103, 103);
 }

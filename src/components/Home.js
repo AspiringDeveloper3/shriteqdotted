@@ -3,7 +3,7 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div className="home container mt-5">
+        <div id='home' className="section home container mt-5">
             <h1 className='dotted'>Dotted 1.0</h1>
             <h3 className='dotted-below'>Connect the dots. See the larger picture.</h3>
             <img
