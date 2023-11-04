@@ -1,0 +1,47 @@
+
+
+.home .dotted {
+    margin-top: 15vh;
+    color: #FFF;
+text-shadow: 10px 8px 3px #000;
+font-family: Montserrat Alternates;
+font-size: 6rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+animation: left-slide 0.9s ease-out;
+}
+
+@keyframes left-slide {
+    0%{
+        transform: translateX(-1200px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+@keyframes bottom-slide {
+    0%{
+        transform: translateY(1000px);
+    }
+    100%{
+        transform: translateY(0px);
+        transform: rotate(-3.855deg);
+    }
+}
+
+.home .dotted-below {
+    text-align: center;
+    color: #FFF;
+font-family: Montserrat Alternates;
+font-size: 3rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+animation: left-slide 0.9s forwards ease-in-out;
+}
+.mt-0 {
+    transform: rotate(-3.855deg);
+    filter: drop-shadow(#000 15px 6px 4px);
+    animation: bottom-slide 0.9s forwards ease-in-out;
+}
