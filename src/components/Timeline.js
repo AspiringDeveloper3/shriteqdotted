@@ -11,8 +11,8 @@ const Timeline = () => {
   ];
 
   return (
-    <div id='timeline' className='section reveal timeline-2'>
-      <div id='filler-timeline'></div>
+    <div className='reveal timeline-2'>
+      
       <div className='timeline-parent'>
         <h1>Timeline</h1>
         <div className="timeline row">

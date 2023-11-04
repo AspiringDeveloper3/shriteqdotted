@@ -1,0 +1,40 @@
+/* Footer.css */
+.footer {
+    width: 100vw;
+    background-color: #343a40; /* Dark background color */
+  }
+  
+  .footer-title {
+    font-family: Montserrat;
+    font-size: 3rem;
+    color: #ffffff; /* Light text color */
+  }
+  
+  .footer p{
+    font-family: Sansita;
+    font-size: 1rem;
+  }
+  p.footer-description {
+    font-size: 1.1rem;
+    font-family: Montserrat Alternates;
+    color: #f8f9fa; /* Light text color */
+  }
+  .my-4 {
+    border: 1px solid black;
+  }
+  
+  .footer-contact-title {
+    font-family: Montserrat;
+    font-size: 3rem;
+    color: #ffffff; /* Light text color */
+  }
+  
+  .footer ul {
+    color: #f8f9fa; /* Light text color */
+  }
+  
+  .footer ul li {
+    font-size: 1.1rem;
+    font-family: 'Roboto Slab';
+  }
+  

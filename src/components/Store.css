@@ -1,0 +1,41 @@
+/* Store.css */
+.store-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .store-slogan {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .braille-pad-img {
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #555;
+    border-radius: 8px;
+    margin-top: 1rem;
+    background-color: #333; /* Dark background for the image */
+  }
+  
+  .store-description {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Button Styles */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  }
+  

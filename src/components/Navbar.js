@@ -53,7 +53,7 @@ const Navbar = () => {
                           <a className={activeLink === 'contact' ? 'active nav-link' : 'nav-link'} href="#contact">Contact Us</a>
                       </li>
                       <li className="nav-item">
-                          <a className={activeLink === 'store' ? 'active nav-link' : 'nav-link'} href="#store">Store</a>
+                          <a className={activeLink === 'store' ? 'active nav-link' : 'nav-link'} href="/store">Store</a>
                       </li>
                   </ul>
               </div>
