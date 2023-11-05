@@ -1,12 +1,12 @@
 /* Store.css */
 .store {
   font-family: Montserrat Alternates;
-  height: 110vh;
   min-width: 100vw;
   background-color: black;
   margin: 0;
 }
 .store-title {
+  margin-top: 10vh;
   font-family: Montserrat;
     font-size: 5rem;
     margin-bottom: 1rem;
@@ -19,12 +19,8 @@
   }
   
   .braille-pad-img {
-    width: 100%;
-    max-width: 400px;
-    border: 1px solid #555;
-    border-radius: 8px;
-    margin-top: 1rem;
-    background-color: #333; /* Dark background for the image */
+    width: 100vw;
+    transform: rotate(-3.855deg);
   }
   
   .store-description {

@@ -21,7 +21,7 @@ const Methodlogy = () => {
         </div>
         <div className="col-md-3 dotted-step">
           <FaBraille className="step-icon" />
-          <h4>Read the Braille Output</h4>
+          <h4>Obtain the Braille Output</h4>
           <hr className='my-4'></hr>
           <p>Dotted will convert the selected media/text and display it on the BraillePad screen for easy reading.</p>
         </div>

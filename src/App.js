@@ -5,8 +5,30 @@ import About from './components/About'
 import Store from './components/Store';
 import Footer from './components/Footer';
 import Methodlogy from './components/Methodology';
+import InfoComponent from './components/Info';
 import './App.css';
 import { BrowserRouter as Router, Routes,Route  } from 'react-router-dom';
+
+
+const AboutPage = () => {
+  return (
+    <div>
+      <Navbar />
+    <InfoComponent />
+    <Footer />
+    </div>
+  )
+}
+
+const StorePage = () => {
+  return (
+    <div>
+      <Navbar/>
+      <Store />
+      <Footer />
+    </div>
+  )
+}
 
 const Main = () => {
   return (
@@ -34,7 +56,8 @@ const App = () => {
         {/* Other components */}
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/store" element={<Store />} />
+          <Route path="/store" element={<StorePage />} />
+          <Route path="/about" element={<AboutPage />} />
           {/* Add more routes as needed */}
         </Routes>
       </div>
