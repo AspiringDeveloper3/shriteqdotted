@@ -3,11 +3,11 @@ import './Store.css'; // Import your custom CSS file
 
 const Store = () => {
   return (
-    <div className="container mt-5">
+    <div className="store container mt-0 mx-auto">
       <div className="row justify-content-center">
         <div className="col-md-8 text-center">
           <h2 className="store-title text-light">Introducing Dotted 1.0</h2>
-          <p className="store-slogan text-secondary">
+          <p className="store-slogan text-light">
             Experience the Future of Braille with Dotted 1.0 - Where Innovation Meets Accessibility!
           </p>
         </div>
@@ -23,7 +23,7 @@ const Store = () => {
         <div className="col-md-6 text-center">
           <p className="store-description text-light">
             Discover the power of Dotted 1.0, our latest Braille pad that empowers visually impaired individuals
-            with cutting-edge technology and unparalleled usability.
+            with cutting-edge technology to be able to use digital media.
           </p>
           <a href="/dotted-1.0" className="btn btn-primary btn-lg">Check it Out</a>
         </div>

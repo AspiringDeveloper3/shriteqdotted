@@ -1,7 +1,6 @@
 
-
 .home .dotted {
-    margin-top: 15vh;
+    margin-top: 10vh;
     color: #FFF;
 text-shadow: 10px 8px 3px #000;
 font-family: Montserrat Alternates;
@@ -40,8 +39,19 @@ font-weight: 600;
 line-height: normal;
 animation: left-slide 0.9s forwards ease-in-out;
 }
-.mt-0 {
+.home .mt-0 {
     transform: rotate(-3.855deg);
     filter: drop-shadow(#000 15px 6px 4px);
     animation: bottom-slide 0.9s forwards ease-in-out;
+}
+@media only screen and (max-width:1000px) {
+    .home .mt-0{
+        width: 80vw;
+    }
+    .home .dotted {
+        font-size: 5.5rem;
+    }
+    .home .dotted-below {
+        font-size: 2.5rem;
+    }
 }

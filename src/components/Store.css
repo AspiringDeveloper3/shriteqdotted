@@ -1,11 +1,20 @@
 /* Store.css */
+.store {
+  font-family: Montserrat Alternates;
+  height: 110vh;
+  min-width: 100vw;
+  background-color: black;
+  margin: 0;
+}
 .store-title {
-    font-size: 2.5rem;
+  font-family: Montserrat;
+    font-size: 5rem;
     margin-bottom: 1rem;
+    text-shadow: 1px 1px 8px white;
   }
   
   .store-slogan {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 2rem;
   }
   

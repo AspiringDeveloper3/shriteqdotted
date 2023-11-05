@@ -2,6 +2,7 @@ import React from 'react';
 import {FaInstagram, FaFacebook, FaTwitter, FaYoutube} from 'react-icons/fa'
 import './Footer.css'; // Import your custom CSS file for additional styles
 
+const iconSize = 30;
 const Footer = () => {
   return (
     <div className="footer py-5 text-light">
@@ -25,19 +26,19 @@ const Footer = () => {
                 <hr className='my-4'></hr>
                 <h1>Follow us:</h1>
               <div className='row'>
-              <li className="col-sm-8 d-flex align-items-center">
-                <FaInstagram className="mr-2" /> @DottedOfficial
+              <li className="col-sm-8 d-flex mt-3 align-items-center">
+                <FaInstagram size={iconSize} className="mr-5" /> @DottedOfficial
               </li>
-              <li className="col-sm-4 d-flex align-items-center">
-                <FaFacebook className="mr-2" /> DottedOfficial
+              <li className="col-sm-4 d-flex mt-3 align-items-center">
+                <FaFacebook size={iconSize} className="mr-5" /> DottedOfficial
               </li>
               </div>
               <div className='row'>
-              <li className="col-sm-8 d-flex align-items-center">
-                <FaTwitter className="mr-2" /> @DottedOfficial
+              <li className="col-sm-8 d-flex mt-3 align-items-center">
+                <FaTwitter size={iconSize} className="mr-5" /> @DottedOfficial
               </li>
-              <li className="col-sm-4 d-flex align-items-center">
-                <FaYoutube className="mr-2" /> DottedOfficial
+              <li className="col-sm-4 d-flex mt-3 align-items-center">
+                <FaYoutube size={iconSize} className="mr-5" /> DottedOfficial
               </li>
               </div>
               </div>

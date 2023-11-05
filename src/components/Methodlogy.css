@@ -1,0 +1,15 @@
+.dotted-container {
+    margin-top: 5vh;
+  }
+  
+  .dotted-step {
+    margin-bottom: 20px;
+  }
+  
+  .step-icon {
+    font-size: 3rem;
+    margin-right: 10px;
+  }
+.dotted-container h1{
+    font-family: Montserrat;
+}  

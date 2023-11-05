@@ -2,11 +2,10 @@
 .about {
     border: 3px solid #6c757d;
     border-radius: 20px;
-
 }
 
 .about .about-dotted {
-    color: #FFF;
+    color: #000;
 font-family: Montserrat;
 font-size: 4rem;
 font-style: normal;
@@ -14,24 +13,19 @@ font-weight: 400;
 line-height: normal;
 }
 .about p{
-    color: #FFF;
+    color: #000;
 font-family: 'Roboto Slab', sans-serif;
-font-size: 2.1rem;
+font-size: 2rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
 .about a{
-    font-size: 2rem;
-    color: #FFF;
+    font-size: 1.8rem;
 }
 
+
 @media only screen and (max-width: 1100px) {
-    .about .sep-rect{
-        background: none;
-        height: 0;
-        width: 0;
-    }
     .about p{
         font-size: 1.5rem;
     }

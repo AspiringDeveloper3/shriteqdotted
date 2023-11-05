@@ -3,7 +3,7 @@
   
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
-  background-color: rgba(0, 0, 0, 0.525);
+  background-color: rgba(0, 0, 0, 0.815);
 line-height: normal;
 max-height: 10vh;
 }
@@ -19,9 +19,21 @@ border-radius: 10px;
 .brand{
   width: 15vw;
 }
-
+.navbar-nav {
+  margin-left: 30vw;
+}
 .navbar a.active {
   transition: 0.7s ease-in-out;
   font-size: 1.4rem;
   background-color: rgb(103, 103, 103);
+}
+
+@media only screen and (max-width:1000px) {
+  .navbar-nav {
+    background-color: rgb(103, 103, 103);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 5vh;
+  }
+
 }
