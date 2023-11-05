@@ -6,7 +6,7 @@ At Dotted, our goal is simple: to make the digital world accessible to everyone,
 
 ## Tech Stack
 We have both a hardware machine prototype that helps convert digital media to tactile dots that can be read by the visually impaired and also a website that serves as a platform for us to showcase our product to the world.<br>
-The hardware has been covered in the presentation and as for the website, the Tech Stack is mainly React.js along with Bootstrap and FontAwesome for external styling. We do not have a backend as of now since our main focus is the prototype and hence, it's a purely front-end based application.
+The hardware has been designed using catia (v5) and then 3d printed. As for the website, the Tech Stack is mainly React.js along with Bootstrap and FontAwesome for external styling. We do not have a backend as of now since our main focus is the prototype and hence, it's a purely front-end based application.
 
 
 ## The Founders<br>
