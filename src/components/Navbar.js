@@ -44,13 +44,13 @@ const Navbar = () => {
                           <a className={activeLink === 'home' ? 'active nav-link' : 'nav-link'} href="/">Home</a>
                       </li>
                       <li className="nav-item">
-                          <a className={activeLink === 'about' ? 'active nav-link' : 'nav-link'} href="#about">About Us</a>
+                          <a className={activeLink === 'about' ? 'active nav-link' : 'nav-link'} href="/#about">About Us</a>
                       </li>
                       <li className="nav-item">
-                          <a className={activeLink === 'timeline' ? 'active nav-link' : 'nav-link'} href="#timeline">Methodology</a>
+                          <a className={activeLink === 'timeline' ? 'active nav-link' : 'nav-link'} href="/#timeline">Methodology</a>
                       </li>
                       <li className="nav-item">
-                          <a className={activeLink === 'contact' ? 'active nav-link' : 'nav-link'} href="#contact">Contact Us</a>
+                          <a className={activeLink === 'contact' ? 'active nav-link' : 'nav-link'} href="/#contact">Contact Us</a>
                       </li>
                       <li className="nav-item">
                           <a className={activeLink === 'store' ? 'active nav-link' : 'nav-link'} href="/store">Store</a>
